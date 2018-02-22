@@ -4,7 +4,7 @@ path = require ('path');
 var serve = require('express-static');
 
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 require('./routing/htmlRoutes.js')(app);
 require('./routing/apiRoutes.js')(app, bodyparser);
