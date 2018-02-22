@@ -1,0 +1,23 @@
+html {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 10px;
+}
+
+.footer {
+    padding-left: 10px;
+}
+
+header {
+    border-bottom: 1px solid rgba(238, 238, 238, 100);
+}
+
+.hr {
+    border: 0;
+    border-top: 1px solid rgba(238, 238, 238, 100);
+}
