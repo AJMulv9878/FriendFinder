@@ -42,7 +42,7 @@ module.exports = function(app, bodyparser) {
 
         console.log(userArray);
                
-        //array.push2arr(newUser);
+        array.push2arr(newUser);
     });
 
 }
